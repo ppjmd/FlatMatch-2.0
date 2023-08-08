@@ -2,7 +2,7 @@
 
 *  body {
     padding: 0;
-    margin: 100;
+    margin: 0;
     font-family: sans-serif;
 }
 
@@ -23,7 +23,8 @@ a.nav_a {
 
 /* au lieu d'utiliser la class nav_a j'affect tous les a dns ul avec id items_list */
 ul#items_list a {
-    color: grey;
+    padding: 10px;
+    color: white;
     text-decoration: none; /* pas de ligne sous chaque item */
 }
 
@@ -38,4 +39,98 @@ ul#items_list li {
     padding: 2px ;
     margin: 0;
     width: 19%;
+}
+
+/* Accueil */
+.acc {
+    margin: 0%;
+    position: relative;
+}
+
+.acc_title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.acc_subtitle {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.acc_text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.acc_rdv {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    background-color:darkolivegreen;
+    border-radius: 20px;
+    border: none;
+}
+
+/* a propos de nous */
+.about_us {
+    margin: 0%;
+    position: relative;
+}
+div#about_img_container {
+    width: 50%;  
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.about_us_shpeel {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 50%;  
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    border: 5px gray;
+    border-style: outset;
+}
+.about_us_img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.about_us_title {
+    /*position: absolute; */
+    top: 10px;
+    right: 50%;
+    padding: 10px;
+}
+.deco_about {
+    color: rgb(48, 65, 48);
+}
+.deco_us {
+    color: rgb(86, 139, 86);
+}
+.about_us_text {
+    /* position: absolute; */
+    top: 40px;
+    right: 10%;
+    padding: 10px;
+    color: rgb(83, 81, 81);
+}
+
+.services {
+    position: relative;
+}
+
+.method {
+    position: relative;
 }
