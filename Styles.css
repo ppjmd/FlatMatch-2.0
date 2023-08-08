@@ -1,0 +1,41 @@
+/* R G  */
+
+*  body {
+    padding: 0;
+    margin: 100;
+    font-family: sans-serif;
+}
+
+/* Navbar / burger menu */
+
+.menu {
+    background-color: rgb(2, 83, 2);
+    display: flex;
+    color :red;  /* n'affecte pas les anchors */
+    text-align: center;
+}
+/*
+a.nav_a {
+    color: white;
+    text-decoration: none;
+}
+*/
+
+/* au lieu d'utiliser la class nav_a j'affect tous les a dns ul avec id items_list */
+ul#items_list a {
+    color: grey;
+    text-decoration: none; /* pas de ligne sous chaque item */
+}
+
+a:hover {
+    color: yellow;
+}
+
+/* je construis une vrai liste que je mets sur une seule ligne */
+ul#items_list li {
+    display: inline;
+    text-align: center;
+    padding: 2px ;
+    margin: 0;
+    width: 19%;
+}
