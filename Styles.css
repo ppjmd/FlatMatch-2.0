@@ -238,3 +238,87 @@ ul#method_list button {
 .method_text_hide {
     display: none;
 }
+
+
+.contact {
+    position: relative;
+    top: 1200px;
+    font-family: Verdana;
+}
+.contact_img_container {
+}
+.contact_img {
+    height: auto;
+    width: 100%;
+}
+.contact_invite {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    left: 30px;
+}
+.contact_details {
+    position: absolute;
+    top: 20px;
+    z-index: 3;
+    background: white;
+    height: max-content;
+    padding: 200px;
+    right: 50px;
+    margin: 30px;
+}
+form#form_contact label {
+    display: block;
+}
+.contact_input {
+    border-bottom: gray ridge;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-top: 10px;
+}
+form#form_contact textarea {
+    margin-top: 20px;
+}
+div#box_firstname {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+div#box_lastname {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+div#box_business {
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+div#box_email{
+    position: absolute;
+    right: 10px;
+    top: 100px;
+}
+div#box_send{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    right: 10px;
+    width: 100%;
+}
+.submit_button {
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(9,64,64);
+    border-radius: 20px;
+}
+.legal {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
