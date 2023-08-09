@@ -218,6 +218,9 @@ ul#method_list button {
     font-size: 1.3em;
     padding: 4px;
 }
+ul#method_list button:hover {
+    background-color: rgb(129, 153, 129);
+  }
 .method_text {
     position:absolute;
     width: 60%;
@@ -276,6 +279,9 @@ form#form_contact label {
     border-right: 0px;
     border-left: 0px;
     margin-top: 10px;
+}
+.contact_input:focus {
+    outline: none;
 }
 form#form_contact textarea {
     margin-top: 20px;
