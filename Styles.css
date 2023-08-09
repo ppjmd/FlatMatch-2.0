@@ -71,7 +71,7 @@ ul#items_list li {
     transform: translate(-50%, -50%);
 }
 
-.acc_rdv {
+.acc_rdv_button {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -174,6 +174,67 @@ div#about_img_container {
     height: 150px;
     padding: 10px;
 }
+
 .method {
     position: relative;
+    top: 600px;
+    font-family: Verdana;
+}
+.method_title {
+    position:absolute;
+    width: 90%;
+    margin-left: 10%;
+    top: 50px;
+    right: 10px;
+}
+.method_requirements {
+    position:absolute;
+    width: 95%;
+    margin-left: 10%;
+    top: 100px;
+
+}
+.method_selection {
+    position:absolute;
+    width: 50%;
+    margin-left: 0%;
+    top: 50px;
+    left: 10px;
+}
+ul#method_list {
+    list-style: none /* remove dot */
+}
+ul#method_list li {
+    text-align: left;
+    padding: 2px ;
+    margin: 0;
+
+}
+ul#method_list button {
+    margin: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: darkolivegreen;
+    font-size: 1.3em;
+    padding: 4px;
+}
+.method_text {
+    position:absolute;
+    width: 60%;
+    top: 50px;
+    right: 60px;
+    margin: 10px;
+    padding: 20px;
+}
+.method_text_align {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+}
+.method_text_show {
+    display: inline; /* juste qqch */
+}
+.method_text_hide {
+    display: none;
 }
